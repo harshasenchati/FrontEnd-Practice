@@ -1,0 +1,26 @@
+.container {
+  height: 100px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aquamarine;
+  margin: 5px;
+}
+button {
+  height: 30px;
+  width: 100px;
+  border: 1px solid rgb(25, 22, 22);
+  background-color: aquamarine;
+}
+.model {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid rgb(83, 191, 237);
+  background-color: aquamarine;
+}
+.blacktheme {
+  background-color: rgb(58, 172, 229);
+}
+.lighttheme {
+  background-color: rgb(11, 218, 156);
+}

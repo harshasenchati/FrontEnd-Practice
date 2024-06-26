@@ -1,0 +1,283 @@
+
+*{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0;
+  margin: 0;
+}
+p{
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: 100;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  border: 10px double salmon;
+  padding: 20px;
+  padding-top: 70px;
+  margin-bottom: 10px;
+  height: 100px;
+  
+}
+h1{
+  text-align: center;
+  color: darkcyan;
+  width: 200px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  border-top: 2px dashed darksalmon;
+  border-bottom:2px dashed darkcyan ;
+  border-right: 2px dashed darkolivegreen ;
+  border-left:2px dotted  darkred;
+  margin-left: 40px;
+  margin-top: 40px; 
+}
+#outer{
+ font-size: 25px;  
+}
+#inner{
+  font-size: 10px;
+}
+.fatherdiv{
+  display: flex;
+  justify-content: left;
+}
+#div1{
+  height: 100px;
+  margin-right: 100px;
+  width: 100px;
+  background-color: aquamarine;
+}
+#div2{
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  color: black;
+}
+.new{
+  height: 500px;
+  width: 100px;
+  background-color: blueviolet;
+  margin-top:20px ;
+}
+.yellow{
+  margin: 10px 10px;
+  height:5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: yellow;
+}
+.red{
+  margin: 10px 10px;
+  height:5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: red;
+}
+.green{
+  margin: 10px 10px;
+  height:5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: green;
+  
+} 
+.navbar{
+  height: 50px;
+  background-color: black;
+  
+}
+.navbar a{
+  margin-right: 200px;
+}
+#amzon{
+  font-size: 25px;
+  color: orange;
+}
+#account{
+  color: white;
+}
+#mycart{
+  color: white;
+}
+#contactus{
+  color: white;
+}
+#amzonsearch{
+  color: white;
+}
+button{
+  background-color: orange;
+  color: white;
+  padding: 1px;
+  
+}
+#separated{
+  margin-left: 500px;
+  display: inline;
+}  
+.content-area div{
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+} 
+#last{
+  background-color: black;
+  height: 40px;
+  color: rgb(82, 112, 235);
+  margin-top: 200px;
+  text-align: center;
+  padding-top: 10px;
+}  
+.content-area{
+  height :650px;
+} 
+ #red{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: static;
+  display: inline-block;
+}
+#green{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: relative;
+  display: inline-block;
+  top: 10px;
+  left: 20px;
+  z-index: 0;
+}
+#blue{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+}
+#black{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  position: fixed;
+  display: inline-block;
+  top: 5px;
+  right: 0;
+} 
+#backimage{
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+  background-image:url(./images/nature.jpg) ;
+  background-size: cover;
+  position: absolute;
+  top: 2px;
+}
+#test{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 5rem;
+  right: 0;
+} 
+
+div{
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+  border: 2px solid black;
+}
+#container{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction:row;
+  justify-content:start;
+  flex-wrap: wrap;
+  align-items: start;
+  align-content: start;
+}
+#box1{
+  background-color: blueviolet;
+}
+#box2{
+  background-color: rgb(18, 97, 186);
+  height: 200px;
+}
+#box3{
+  background-color: rgb(20, 135, 141);
+  height: 75px;
+}
+#box4{
+  background-color: rgb(44, 33, 199);
+}
+#box5{
+  background-color: rgb(49, 188, 18);
+} 
+ a{
+  text-decoration: none;
+  
+}
+.container{
+  height: 600px;
+  width: 600px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;  
+}
+.navbar{
+  height: 400px;
+  width: 400px;
+  border: 2px solid green;
+}
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(17, 144, 172);
+}
+li{
+  list-style-type: none;
+} 
+#transform{
+
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  border: 2px solid red;
+  position: absolute;
+  animation: coloranimate 2s ease-in 0s infinite alternate-reverse ;
+}
+div:hover {
+  top: 100px;
+  left: 100px;
+  transform: translate(50px);
+  transition:  20s steps(100) ;
+}
+@keyframes coloranimate {
+  from{left: 0px;}
+  to{left: 200px;}
+} 
+.loader{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-top: dotted;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  animation: loader 2s ease-in 0s infinite normal;
+}
+
+@keyframes loader {
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+
+
+
+
+

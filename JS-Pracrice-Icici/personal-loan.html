@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loansec">
+    <h1>Loan Application</h1>
+    <h2>Basic Information</h2>
+    <br>
+    
+    <form   action="">
+      <div class="data-input-grid">
+
+        <label for="firstName">FirstName:</label>
+        <input class="js-firstName" type="text"id="firstName"name="firstName" >
+        <br>
+    
+        <label for="middleName">Middle Name:</label>
+        <input class="js-middleName" type="text"id="middleName"name="middleName" >
+        <br>
+        <label for="lastName">Last Name:</label>
+        <input class="js-lastName" type="text" id="lastName"name="lastName" >
+        <br>
+        <label for="phoneNumber">Phone Number:</label>
+        <input class="js-phone" type="text"id="phoneNumber"name="phoneNumber">
+        <br>
+        <input class="submit-btn"  onclick="addData(event)"  type="submit" value="Submit"></button>
+        
+  
+        <h2>Submitted Details</h2>
+        <br>
+        <table>
+          <thead>
+            <tr>
+              <th>
+                FirstName
+              </th>
+              <th>
+                MiddleName 
+              </th>
+              <th>
+                LastName
+              </th>
+              <th>
+                Phone Number
+              </th>
+            </tr>
+          </thead>
+          <tbody id="dataTable">
+            
+          </tbody>
+          
+
+          
+
+        </table>
+        
+        
+        
+
+      </div>
+    
+    </form>
+    
+  </div>
+
+  
+</body>
+</html>
